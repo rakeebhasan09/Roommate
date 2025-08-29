@@ -34,16 +34,87 @@
 		<!-- HEADER HERO AREA START -->
 		<header class="header-area">
 			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="">
-							<div class="header-wrpper"></div>
+				<div class="header-wrpper">
+					<div class="row align-items-center">
+						<div class="col-6 col-md-3 col-lg-4">
+							<div class="header-logo">
+								<a href="index.html">
+									<img
+										src="images/roommate-logo.png"
+										alt="Roommate Header Logo"
+									/>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-lg-6 d-none d-md-block">
+							<nav class="desktop-menu-card">
+								<ul class="SMN_effect-14">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">rooms</a></li>
+									<li><a href="#">roommate</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-md-2 col-lg-2 d-none d-md-block">
+							<div class="login-btn text-end">
+								<a href="#"> Login </a>
+							</div>
+						</div>
+						<div class="col-6 d-flex justify-content-end d-md-none">
+							<div
+								class="hamburger"
+								id="hamburger-1"
+								data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasRight"
+								aria-controls="offcanvasRight"
+							>
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
 		<!-- HEADER HERO AREA END -->
+
+		<!-- MOBILE MENU SIDE BAR -->
+		<aside
+			class="offcanvas offcanvas-end"
+			tabindex="-1"
+			id="offcanvasRight"
+			aria-labelledby="offcanvasRightLabel"
+		>
+			<div class="offcanvas-header">
+				<a href="index.html" id="offcanvasRightLabel">
+					<img src="images/roommate-logo.png" alt="" />
+				</a>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<nav class="desktop-menu-card">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">rooms</a></li>
+						<li><a href="#">roommate</a></li>
+						<li>
+							<div class="login-btn">
+								<a href="#"> Login </a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</aside>
+		<!-- MOBILE MENU SIDE BAR -->
 
 		<!-- Main jQuery -->
 		<script src="js/jquery-3.4.1.min.js"></script>

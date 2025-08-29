@@ -161,9 +161,129 @@ ul {
 }
 
 /*======================
-DEFAULT CSS HERE
+HEADER CSS HERE
 ========================*/
-.header-wrpper {
-	height: 300px;
-	border: 5px solid sandybrown;
+.header-area {
+	padding-top: 36px;
+	padding-bottom: 50px;
+	background-color: #0e1624;
+}
+
+.header-logo a img {
+	max-width: 200px;
+}
+
+.desktop-menu-card ul {
+	display: flex;
+	align-items: center;
+	column-gap: 36px;
+}
+
+.desktop-menu-card ul li a {
+	color: #fff;
+	font-size: 14px;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.SMN_effect-14 a {
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.SMN_effect-14 a:before {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	color: transparent;
+	content: "•";
+	text-shadow: 0 0 transparent;
+	font-size: 13pt;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+.SMN_effect-14 a:hover:before,
+.SMN_effect-14 a:focus:before {
+	color: #fff;
+	text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+.login-btn a {
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+	background: #47b86c;
+	padding: 9px 43px;
+	border: 1px solid #47b86c;
+	transition: background 0.3s ease-in-out;
+}
+
+.login-btn a:hover {
+	background: transparent;
+}
+
+.hamburger .line {
+	width: 40px;
+	height: 3px;
+	background-color: #ecf0f1;
+	display: block;
+	margin: 8px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+	cursor: pointer;
+}
+.offcanvas-header {
+	background-color: #0e1624;
+}
+
+#offcanvasRightLabel img {
+	width: 100px;
+}
+.btn-close {
+	box-sizing: content-box;
+	width: 1em;
+	height: 1em;
+	padding: 0.25em 0.25em;
+	color: #000;
+	background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFF' %3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+		center/1em auto no-repeat !important;
+	border: 0;
+	border-radius: 0.25rem;
+	opacity: 1 !important;
+}
+
+.btn-close:focus {
+	box-shadow: none;
+}
+
+.offcanvas-body .desktop-menu-card ul {
+	flex-direction: column;
+	gap: 20px;
+	padding-top: 20px;
+}
+
+.offcanvas-body .desktop-menu-card ul li a {
+	color: #0e1624;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.offcanvas-body .desktop-menu-card ul li:last-child a {
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.offcanvas-body .desktop-menu-card ul li:last-child a:hover {
+	color: #0e1624;
 }
