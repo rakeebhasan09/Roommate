@@ -76,6 +76,10 @@ Large Screen - Leptop
 	#add-rooms {
 		align-items: start !important;
 	}
+
+	.chat-box-wrpper {
+		width: 100%;
+	}
 }
 
 /*=========================
@@ -183,6 +187,13 @@ Medium Screen - Tablate
 	.submit-btn,
 	.cancel-btn {
 		margin-top: 20px;
+	}
+
+	.chat-box-wrpper {
+		width: 100%;
+	}
+	.single-chat {
+		padding-left: 10px;
 	}
 }
 
@@ -373,5 +384,20 @@ Xtra Small Screen - Small Mobile
 	}
 	.input-field label {
 		margin-bottom: 11px;
+	}
+	.chat-box-wrpper {
+		width: 100%;
+		padding: 0 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	.single-chat {
+		padding-left: 10px;
+	}
+	.chat-inbox {
+		padding: 25px 20px;
+	}
+	.type-message {
+		margin-top: 70px;
 	}
 }

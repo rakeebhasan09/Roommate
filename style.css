@@ -855,7 +855,8 @@ ADD ROOMS PAGE CSS HERE
 	background: transparent;
 }
 
-.new-proterty-add {
+.new-proterty-add,
+.chat-box-wrpper {
 	width: calc(100% - 331px);
 	padding: 0 58px;
 }
@@ -951,4 +952,159 @@ ADD ROOMS PAGE CSS HERE
 
 .cancel-btn.delete-accoutn {
 	margin-top: 20px;
+}
+
+.chat-box-wrpper {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 16px;
+}
+
+.chat-list {
+	border-radius: 16px;
+	background: #fff;
+	padding-top: 32px;
+}
+
+.chat-list h3 {
+	color: #262626;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.single-chat {
+	padding: 10px 0;
+	display: flex;
+	column-gap: 16px;
+	padding-left: 40px;
+}
+
+.person-info h2 {
+	color: #262626;
+	font-size: 16px;
+	font-weight: 500;
+	position: relative;
+	margin-top: 5px;
+}
+
+.person-info h2::after {
+	content: "";
+	display: block;
+	clear: both;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background-color: #536eda;
+	border-radius: 50%;
+	right: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.person-img {
+	position: relative;
+}
+
+.message-count {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #fd5c5c;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#active-single-chat {
+	position: relative;
+	background-color: #edeff7;
+}
+
+#active-single-chat::before {
+	content: "";
+	display: block;
+	clear: both;
+	position: absolute;
+	width: 4px;
+	height: 100%;
+	background-color: #536eda;
+	border-radius: 8px;
+	left: 0;
+	top: 0;
+}
+
+.chat-inbox {
+	padding: 107px 33px 30px;
+	border-radius: 16px;
+	border: 1px solid #ebebeb;
+	background: #fff;
+	height: max-content;
+}
+
+.chat-inbox ul li {
+	display: flex;
+	align-items: flex-end;
+	gap: 16px;
+}
+
+.chat-inbox ul li img {
+	width: 32px;
+}
+
+.chat-inbox ul li span {
+	color: #262626;
+	font-size: 14px;
+}
+
+.chat-inbox ul small {
+	padding-bottom: 90px;
+	display: block;
+	border-bottom: 1px solid #b5b5b5;
+	position: relative;
+}
+
+.chat-inbox ul small span {
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #b5b5b5;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px 30px;
+	background-color: #fff;
+}
+
+.type-message {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 265px;
+}
+
+.type-message input {
+	width: calc(100% - 65px);
+	border-radius: 48px;
+	opacity: 0.88;
+	background: #f7f7f7;
+	color: #727272;
+	font-size: 12px;
+	padding: 17px 20px;
+	border: none;
+	outline: none;
+}
+
+.type-message button {
+	width: 52.616px;
+	height: 52.616px;
+	border-radius: 50%;
+	background: #3d63f9;
+	border: none;
 }

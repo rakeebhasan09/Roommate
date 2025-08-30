@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="keywords" content="" />
+		<meta name="decription" content="" />
+		<meta name="designer" content="" />
+
+		<!-- Title -->
+		<title>Welcome</title>
+
+		<!-- Fav Icon -->
+		<link rel="icon" href="images/favicon.ico" />
+
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+
+		<!-- Icon Css Here -->
+		<link rel="stylesheet" href="css/font-awesome.css" />
+
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+	<body style="background-color: #fff">
+		<!-- HEADER HERO AREA START -->
+		<header class="header-area">
+			<div class="container">
+				<div class="header-wrpper">
+					<div class="row align-items-center">
+						<div class="col-6 col-md-3 col-lg-4">
+							<div class="header-logo">
+								<a href="index.html">
+									<img
+										src="images/roommate-logo.png"
+										alt="Roommate Header Logo"
+									/>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-lg-6 d-none d-md-block">
+							<nav class="desktop-menu-card">
+								<ul class="SMN_effect-14">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">rooms</a></li>
+									<li><a href="#">roommate</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-md-2 col-lg-2 d-none d-md-block">
+							<div class="login-btn text-end">
+								<a href="#"> Login </a>
+							</div>
+						</div>
+						<div class="col-6 d-flex justify-content-end d-md-none">
+							<div
+								class="hamburger"
+								id="hamburger-1"
+								data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasRight"
+								aria-controls="offcanvasRight"
+							>
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER HERO AREA END -->
+
+		<!-- MOBILE MENU SIDE BAR -->
+		<aside
+			class="offcanvas offcanvas-end"
+			tabindex="-1"
+			id="offcanvasRight"
+			aria-labelledby="offcanvasRightLabel"
+		>
+			<div class="offcanvas-header">
+				<a href="index.html" id="offcanvasRightLabel">
+					<img src="images/roommate-logo.png" alt="" />
+				</a>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<nav class="desktop-menu-card">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">rooms</a></li>
+						<li><a href="#">roommate</a></li>
+						<li>
+							<div class="login-btn">
+								<a href="#"> Login </a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</aside>
+		<!-- MOBILE MENU SIDE BAR -->
+
+		<!-- MAIN AREA START -->
+		<main id="add-rooms">
+			<div class="admin-menu-toggler">
+				<div
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasExample"
+					aria-controls="offcanvasExample"
+					id="toggler-icon"
+					style="cursor: pointer"
+				>
+					<span class="hamburger-line"></span>
+					<span class="hamburger-line"></span>
+					<span class="hamburger-line"></span>
+				</div>
+			</div>
+			<div class="admin-menu-wrpper d-none d-xl-block">
+				<ul>
+					<li>
+						<a href="#">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="23"
+								viewBox="0 0 16 23"
+								fill="none"
+							>
+								<path
+									d="M8.16078 10.37C8.05101 10.36 7.94055 10.36 7.83078 10.37C6.66699 10.3268 5.56664 9.82852 4.7664 8.98242C3.96615 8.13632 3.52993 7.00994 3.55155 5.84555C3.57317 4.68115 4.0509 3.57175 4.882 2.75593C5.7131 1.94012 6.83119 1.48306 7.99578 1.48306C9.16038 1.48306 10.2785 1.94012 11.1096 2.75593C11.9407 3.57175 12.4184 4.68115 12.44 5.84555C12.4616 7.00994 12.0254 8.13632 11.2252 8.98242C10.4249 9.82852 9.32458 10.3268 8.16078 10.37Z"
+									stroke="#9B9B9B"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M13.1687 14.06C15.5887 15.67 15.5887 18.31 13.1687 19.93C11.6555 20.8331 9.92604 21.31 8.16375 21.31C6.40146 21.31 4.67201 20.8331 3.15875 19.93C0.73875 18.32 0.73875 15.68 3.15875 14.06C4.67366 13.1616 6.40247 12.6875 8.16375 12.6875C9.92503 12.6875 11.6538 13.1616 13.1687 14.06Z"
+									stroke="#9B9B9B"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Account
+						</a>
+					</li>
+					<li id="admin-item-active">
+						<a href="#">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+							>
+								<path
+									d="M3.61971 8.49C5.58971 -0.169998 18.4197 -0.159997 20.3797 8.5C21.5297 13.58 18.3697 17.88 15.5997 20.54C14.6318 21.4735 13.3395 21.9952 11.9947 21.9952C10.65 21.9952 9.35763 21.4735 8.38971 20.54C5.62971 17.88 2.46971 13.57 3.61971 8.49Z"
+									stroke="#9B9B9B"
+									stroke-width="1.5"
+								/>
+								<path
+									d="M14.75 9L10.75 13L9.25 11.5"
+									stroke="#9B9B9B"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Rooms Added
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+							>
+								<path
+									d="M2 12C2 10.0222 2.58649 8.08879 3.6853 6.4443C4.78412 4.79981 6.3459 3.51809 8.17317 2.76121C10.0004 2.00433 12.0111 1.8063 13.9509 2.19215C15.8907 2.578 17.6725 3.53041 19.0711 4.92894C20.4696 6.32746 21.422 8.10929 21.8079 10.0491C22.1937 11.9889 21.9957 13.9996 21.2388 15.8268C20.4819 17.6541 19.2002 19.2159 17.5557 20.3147C15.9112 21.4135 13.9778 22 12 22C9.35019 21.9924 6.81109 20.9363 4.93738 19.0626C3.06368 17.1889 2.00765 14.6498 2 12Z"
+									stroke="#7A7A7A"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M12 8V13"
+									stroke="#7A7A7A"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M11.9941 16H12.0031"
+									stroke="#7A7A7A"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Conversation
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+							>
+								<path
+									d="M2 12C2 10.0222 2.58649 8.08879 3.6853 6.4443C4.78412 4.79981 6.3459 3.51809 8.17317 2.76121C10.0004 2.00433 12.0111 1.8063 13.9509 2.19215C15.8907 2.578 17.6725 3.53041 19.0711 4.92894C20.4696 6.32746 21.422 8.10929 21.8079 10.0491C22.1937 11.9889 21.9957 13.9996 21.2388 15.8268C20.4819 17.6541 19.2002 19.2159 17.5557 20.3147C15.9112 21.4135 13.9778 22 12 22C9.35019 21.9924 6.81109 20.9363 4.93738 19.0626C3.06368 17.1889 2.00765 14.6498 2 12Z"
+									stroke="#7A7A7A"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M12 8V13"
+									stroke="#7A7A7A"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M11.9941 16H12.0031"
+									stroke="#7A7A7A"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Help
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="25"
+								viewBox="0 0 24 25"
+								fill="none"
+							>
+								<path
+									d="M8.90039 8.05999C9.21039 4.45999 11.0604 2.98999 15.1104 2.98999H15.2404C19.7104 2.98999 21.5004 4.77999 21.5004 9.24999V15.77C21.5004 20.24 19.7104 22.03 15.2404 22.03H15.1104C11.0904 22.03 9.24039 20.58 8.91039 17.04"
+									stroke="#FF342D"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M14.9991 12.5H3.61914"
+									stroke="#FF342D"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M5.85 15.85L2.5 12.5L5.85 9.15002"
+									stroke="#FF342D"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Log out
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="chat-box-wrpper">
+				<div class="chat-list">
+					<h3>Chat</h3>
+					<div id="active-single-chat" class="single-chat">
+						<div class="person-img">
+							<img src="images/chat-person-circle.png" alt="" />
+							<div class="message-count">1</div>
+						</div>
+						<div class="person-info">
+							<h2>Mohammad</h2>
+						</div>
+					</div>
+					<div class="single-chat">
+						<div class="person-img">
+							<img src="images/chat-person-circle.png" alt="" />
+							<div class="message-count">1</div>
+						</div>
+						<div class="person-info">
+							<h2>Abdullah</h2>
+						</div>
+					</div>
+				</div>
+				<div class="chat-inbox">
+					<ul>
+						<li>
+							<img src="images/chat-person-circle.png" alt="" />
+							<span>السلام عليكم</span>
+						</li>
+						<small>
+							<span>Today</span>
+						</small>
+						<li style="padding-top: 37px; padding-bottom: 80px">
+							<img src="images/chat-person-circle.png" alt="" />
+							<span>السلام عليكم و رحمة الله و بركاته</span>
+						</li>
+						<li style="justify-content: flex-end">
+							<span>عليكم السلام</span>
+							<img src="images/chat-person-circle.png" alt="" />
+						</li>
+					</ul>
+					<div class="type-message">
+						<input
+							type="text"
+							placeholder="Type your message here.."
+						/>
+						<button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="23"
+								viewBox="0 0 23 23"
+								fill="none"
+							>
+								<path
+									d="M3.83803 17.2272L5.66079 10.9227L3.83803 4.61815C3.61253 3.84771 4.40177 3.16182 5.13463 3.50946L19.3221 10.077C20.0456 10.4153 20.0456 11.4488 19.3221 11.7777L5.13463 18.3452C4.40177 18.6835 3.61253 18.007 3.83803 17.2272Z"
+									fill="white"
+								/>
+								<path
+									d="M5.66016 10.9227H10.1607"
+									stroke="#3D63F9"
+									stroke-width="1.4"
+									stroke-miterlimit="10"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<aside
+			class="offcanvas offcanvas-start"
+			tabindex="-1"
+			id="offcanvasExample"
+			aria-labelledby="offcanvasExampleLabel"
+		>
+			<div class="offcanvas-header">
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<div class="admin-menu-wrpper">
+					<ul>
+						<li>
+							<a href="#">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="23"
+									viewBox="0 0 16 23"
+									fill="none"
+								>
+									<path
+										d="M8.16078 10.37C8.05101 10.36 7.94055 10.36 7.83078 10.37C6.66699 10.3268 5.56664 9.82852 4.7664 8.98242C3.96615 8.13632 3.52993 7.00994 3.55155 5.84555C3.57317 4.68115 4.0509 3.57175 4.882 2.75593C5.7131 1.94012 6.83119 1.48306 7.99578 1.48306C9.16038 1.48306 10.2785 1.94012 11.1096 2.75593C11.9407 3.57175 12.4184 4.68115 12.44 5.84555C12.4616 7.00994 12.0254 8.13632 11.2252 8.98242C10.4249 9.82852 9.32458 10.3268 8.16078 10.37Z"
+										stroke="#9B9B9B"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M13.1687 14.06C15.5887 15.67 15.5887 18.31 13.1687 19.93C11.6555 20.8331 9.92604 21.31 8.16375 21.31C6.40146 21.31 4.67201 20.8331 3.15875 19.93C0.73875 18.32 0.73875 15.68 3.15875 14.06C4.67366 13.1616 6.40247 12.6875 8.16375 12.6875C9.92503 12.6875 11.6538 13.1616 13.1687 14.06Z"
+										stroke="#9B9B9B"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Account
+							</a>
+						</li>
+						<li id="admin-item-active">
+							<a href="#">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+								>
+									<path
+										d="M3.61971 8.49C5.58971 -0.169998 18.4197 -0.159997 20.3797 8.5C21.5297 13.58 18.3697 17.88 15.5997 20.54C14.6318 21.4735 13.3395 21.9952 11.9947 21.9952C10.65 21.9952 9.35763 21.4735 8.38971 20.54C5.62971 17.88 2.46971 13.57 3.61971 8.49Z"
+										stroke="#9B9B9B"
+										stroke-width="1.5"
+									/>
+									<path
+										d="M14.75 9L10.75 13L9.25 11.5"
+										stroke="#9B9B9B"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Rooms Added
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+								>
+									<path
+										d="M2 12C2 10.0222 2.58649 8.08879 3.6853 6.4443C4.78412 4.79981 6.3459 3.51809 8.17317 2.76121C10.0004 2.00433 12.0111 1.8063 13.9509 2.19215C15.8907 2.578 17.6725 3.53041 19.0711 4.92894C20.4696 6.32746 21.422 8.10929 21.8079 10.0491C22.1937 11.9889 21.9957 13.9996 21.2388 15.8268C20.4819 17.6541 19.2002 19.2159 17.5557 20.3147C15.9112 21.4135 13.9778 22 12 22C9.35019 21.9924 6.81109 20.9363 4.93738 19.0626C3.06368 17.1889 2.00765 14.6498 2 12Z"
+										stroke="#7A7A7A"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M12 8V13"
+										stroke="#7A7A7A"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M11.9941 16H12.0031"
+										stroke="#7A7A7A"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Conversation
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+								>
+									<path
+										d="M2 12C2 10.0222 2.58649 8.08879 3.6853 6.4443C4.78412 4.79981 6.3459 3.51809 8.17317 2.76121C10.0004 2.00433 12.0111 1.8063 13.9509 2.19215C15.8907 2.578 17.6725 3.53041 19.0711 4.92894C20.4696 6.32746 21.422 8.10929 21.8079 10.0491C22.1937 11.9889 21.9957 13.9996 21.2388 15.8268C20.4819 17.6541 19.2002 19.2159 17.5557 20.3147C15.9112 21.4135 13.9778 22 12 22C9.35019 21.9924 6.81109 20.9363 4.93738 19.0626C3.06368 17.1889 2.00765 14.6498 2 12Z"
+										stroke="#7A7A7A"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M12 8V13"
+										stroke="#7A7A7A"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M11.9941 16H12.0031"
+										stroke="#7A7A7A"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Help
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="25"
+									viewBox="0 0 24 25"
+									fill="none"
+								>
+									<path
+										d="M8.90039 8.05999C9.21039 4.45999 11.0604 2.98999 15.1104 2.98999H15.2404C19.7104 2.98999 21.5004 4.77999 21.5004 9.24999V15.77C21.5004 20.24 19.7104 22.03 15.2404 22.03H15.1104C11.0904 22.03 9.24039 20.58 8.91039 17.04"
+										stroke="#FF342D"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M14.9991 12.5H3.61914"
+										stroke="#FF342D"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M5.85 15.85L2.5 12.5L5.85 9.15002"
+										stroke="#FF342D"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								Log out
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+		<!-- MAIN AREA END -->
+
+		<!-- FOOTER AREA START -->
+		<section class="footer-area">
+			<div class="container">
+				<div class="footer-top-wrpper">
+					<h2>Elite Realty</h2>
+					<div class="row">
+						<div class="col-md-6 col-lg-3 col-xl-2">
+							<div class="footer-list">
+								<h3>Quick Link</h3>
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Properties</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Testimonials</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 col-xl-4">
+							<div class="footer-list">
+								<h3>Contact Info</h3>
+								<ul class="contact-info">
+									<li>
+										<span
+											><i class="fa-solid fa-phone"></i
+										></span>
+										<span>(123) 456-7890</span>
+									</li>
+									<li>
+										<span
+											><i class="fa-solid fa-envelope"></i
+										></span>
+										<span>contact@eliterealty.com</span>
+									</li>
+									<li>
+										<span
+											><i
+												class="fa-solid fa-location-dot"
+											></i
+										></span>
+										<span
+											>123 Realty Street, Major City,
+											45678</span
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-2 col-xl-3">
+							<div class="footer-list">
+								<h3>Legal</h3>
+								<ul>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-xl-3">
+							<div class="footer-list">
+								<h3>Social Media</h3>
+								<ul class="contact-info">
+									<li>
+										<span
+											><i
+												class="fa-brands fa-facebook-f"
+											></i
+										></span>
+										<span>EliteRealty</span>
+									</li>
+									<li>
+										<span
+											><i class="fa-brands fa-twitter"></i
+										></span>
+										<span>EliteRealty</span>
+									</li>
+									<li>
+										<span
+											><i
+												class="fa-brands fa-instagram"
+											></i
+										></span>
+										<span>eliterealty</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom-wrpper">
+					<p>
+						© <span id="dynamic-year">2024</span> Elite Realty. All
+						rights reserved.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER AREA END -->
+
+		<script>
+			const findDate = new Date();
+			const findFullYear = findDate.getFullYear();
+			document.getElementById("dynamic-year").innerText = findFullYear;
+		</script>
+
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- Bootstrap.bundle Script -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- Custom jQuery -->
+		<script src="js/scripts.js"></script>
+
+		<!-- Scroll-Top button -->
+		<a href="#" class="scrolltotop" style="display: none">
+			<i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+			<span class="pluse"></span>
+			<span class="pluse2"></span>
+		</a>
+	</body>
+</html>
