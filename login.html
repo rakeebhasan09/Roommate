@@ -116,6 +116,141 @@
 		</aside>
 		<!-- MOBILE MENU SIDE BAR -->
 
+		<main>
+			<section class="login-form-area">
+				<div class="container">
+					<div class="login-form-wrpper">
+						<h2>Sign Up</h2>
+						<form action="">
+							<label>Phone Number</label>
+							<input type="text" placeholder="Phone Number" />
+							<div class="confirm-box">
+								<label class="custom-checkbox">
+									<input type="checkbox" />
+									<span class="checkmark"></span>
+									<span
+										><span>By signing Up I Agree with</span>
+										<a href="#"
+											>Terms & Conditions
+										</a></span
+									>
+								</label>
+							</div>
+							<div class="signup-btn">
+								<button>Sign Up</button>
+							</div>
+							<p>Alrady have account ? <a href="#">Sign In</a></p>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- FOOTER AREA START -->
+		<section class="footer-area">
+			<div class="container">
+				<div class="footer-top-wrpper">
+					<h2>Elite Realty</h2>
+					<div class="row">
+						<div class="col-md-6 col-lg-3 col-xl-2">
+							<div class="footer-list">
+								<h3>Quick Link</h3>
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Properties</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Testimonials</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 col-xl-4">
+							<div class="footer-list">
+								<h3>Contact Info</h3>
+								<ul class="contact-info">
+									<li>
+										<span
+											><i class="fa-solid fa-phone"></i
+										></span>
+										<span>(123) 456-7890</span>
+									</li>
+									<li>
+										<span
+											><i class="fa-solid fa-envelope"></i
+										></span>
+										<span>contact@eliterealty.com</span>
+									</li>
+									<li>
+										<span
+											><i
+												class="fa-solid fa-location-dot"
+											></i
+										></span>
+										<span
+											>123 Realty Street, Major City,
+											45678</span
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-2 col-xl-3">
+							<div class="footer-list">
+								<h3>Legal</h3>
+								<ul>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-xl-3">
+							<div class="footer-list">
+								<h3>Social Media</h3>
+								<ul class="contact-info">
+									<li>
+										<span
+											><i
+												class="fa-brands fa-facebook-f"
+											></i
+										></span>
+										<span>EliteRealty</span>
+									</li>
+									<li>
+										<span
+											><i class="fa-brands fa-twitter"></i
+										></span>
+										<span>EliteRealty</span>
+									</li>
+									<li>
+										<span
+											><i
+												class="fa-brands fa-instagram"
+											></i
+										></span>
+										<span>eliterealty</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom-wrpper">
+					<p>
+						© <span id="dynamic-year">2024</span> Elite Realty. All
+						rights reserved.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER AREA END -->
+
+		<script>
+			const findDate = new Date();
+			const findFullYear = findDate.getFullYear();
+			document.getElementById("dynamic-year").innerText = findFullYear;
+		</script>
+
 		<!-- Main jQuery -->
 		<script src="js/jquery-3.4.1.min.js"></script>
 

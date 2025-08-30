@@ -8,6 +8,15 @@ Extra Large Screen - Others
 Large Screen - Leptop
 ==========================*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.contact-info {
+		padding-right: 0px;
+	}
+	.contact-info li span {
+		font-size: 17px;
+	}
+	.footer-list ul li a {
+		font-size: 17px;
+	}
 }
 
 /*=========================
@@ -29,6 +38,23 @@ Medium Screen - Tablate
 	.login-btn a {
 		padding: 9px 28px;
 	}
+
+	.contact-info {
+		padding-right: 0px;
+	}
+	.contact-info li span {
+		font-size: 17px;
+	}
+	.footer-list ul li a {
+		font-size: 17px;
+	}
+	.footer-list ul {
+		padding-top: 20px;
+	}
+	.footer-top-wrpper .row {
+		margin-top: 35px;
+		row-gap: 30px;
+	}
 }
 
 /*===============================
@@ -41,5 +67,53 @@ Xtra Small Screen - Small Mobile
 	.header-area {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	.footer-top-wrpper {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.footer-top-wrpper > h2 {
+		font-size: 26px;
+	}
+	.footer-list h3 {
+		font-size: 23px;
+	}
+	.contact-info {
+		padding-right: 0px;
+	}
+	.contact-info li span {
+		font-size: 17px;
+	}
+	.contact-info li span:first-child {
+		width: 42px;
+		margin-right: 0px;
+	}
+	.footer-list ul li a {
+		font-size: 17px;
+	}
+	.footer-list ul {
+		padding-top: 20px;
+	}
+	.footer-top-wrpper .row {
+		margin-top: 35px;
+		row-gap: 30px;
+	}
+	.contact-info li i {
+		font-size: 23px;
+	}
+
+	.login-form-area {
+		padding-top: 60px;
+		padding-bottom: 70px;
+	}
+	.login-form-wrpper h2 {
+		margin-bottom: 35px;
+	}
+	.signup-btn button {
+		margin-top: 40px;
+	}
+	.login-form-wrpper form p {
+		margin-top: 30px;
 	}
 }

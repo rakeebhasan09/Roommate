@@ -287,3 +287,209 @@ HEADER CSS HERE
 .offcanvas-body .desktop-menu-card ul li:last-child a:hover {
 	color: #0e1624;
 }
+
+/*======================
+FOOTER AREA CSS HERE
+========================*/
+.footer-area {
+	background: #0e1624;
+}
+
+.footer-top-wrpper {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.footer-top-wrpper > h2 {
+	color: #fff;
+	font-size: 38px;
+}
+
+.footer-list h3 {
+	color: #47b86c;
+	font-size: 28px;
+}
+
+.footer-list ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+	padding-top: 40px;
+}
+
+.footer-list ul li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+.contact-info li {
+	display: flex;
+	align-items: center;
+}
+
+.contact-info li span:first-child {
+	width: 50px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.contact-info li span:last-child {
+	width: calc(100% - 50px);
+}
+
+.contact-info li i {
+	color: #47b86c;
+	font-size: 30px;
+}
+
+.contact-info li span {
+	color: #fff;
+	font-size: 20px;
+	line-break: anywhere;
+}
+
+.contact-info {
+	padding-right: 113px;
+}
+
+.footer-top-wrpper .row {
+	margin-top: 60px;
+}
+
+.footer-bottom-wrpper {
+	padding-bottom: 40px;
+}
+
+.footer-bottom-wrpper p {
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+
+/*======================
+Login Form AREA CSS HERE
+========================*/
+.login-form-area {
+	padding-top: 100px;
+	padding-bottom: 113px;
+}
+
+.login-form-wrpper form {
+	max-width: 400px;
+	margin: auto;
+}
+
+.login-form-wrpper h2 {
+	color: #000;
+	font-family: var(--Inter);
+	font-size: 34.4px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.login-form-wrpper form > label {
+	display: block;
+	color: #010101;
+	font-family: var(--Inter);
+	font-size: 16.4px;
+	margin-bottom: 18px;
+}
+
+.login-form-wrpper form input {
+	border-radius: 6px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	padding-left: 21px;
+	padding-top: 16px;
+	padding-bottom: 11px;
+	color: #b1b1b1;
+	font-family: var(--Inter);
+	font-size: 16.4px;
+	width: 100%;
+}
+
+.login-form-wrpper form input:focus {
+	outline: none;
+}
+
+.custom-checkbox {
+	display: flex;
+	align-items: center;
+}
+
+.custom-checkbox input {
+	display: none;
+}
+
+.checkmark {
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border: 2px solid #0266d6;
+	border-radius: 4px;
+	margin-right: 10px;
+	position: relative;
+	display: inline-flex;
+}
+
+.custom-checkbox input:checked + .checkmark {
+	background-color: #0266d6;
+}
+
+.checkmark::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+	display: block;
+}
+
+.checkmark::after {
+	left: 5px;
+	top: 2px;
+	width: 6px;
+	height: 10px;
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.custom-checkbox a {
+	margin-left: 5px;
+}
+
+.confirm-box {
+	margin-top: 25px;
+}
+
+.signup-btn button {
+	color: #fff;
+	text-align: center;
+	font-family: var(--Inter);
+	font-size: 18.4px;
+	border-radius: 12px;
+	background: #0eaf52;
+	padding: 12px 0;
+	width: 100%;
+	border: 2px solid #0eaf52;
+	transition: all 0.3s ease-in-out;
+	margin-top: 63px;
+}
+
+.signup-btn button:hover {
+	background: transparent;
+	color: #0eaf52;
+}
+
+.login-form-wrpper form p {
+	color: #010101;
+	text-align: center;
+	font-family: var(--Inter);
+	font-size: 16.4px;
+	margin-top: 42px;
+}
+
+.login-form-wrpper form p a {
+	color: #3886de;
+}
