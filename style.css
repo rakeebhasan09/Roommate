@@ -760,7 +760,7 @@ ADD ROOMS PAGE CSS HERE
 	stroke: #fff;
 }
 
-.admin-menu-wrpper ul li:nth-child(3) {
+.admin-menu-wrpper ul li:nth-child(4) {
 	flex-grow: 1;
 }
 
@@ -802,4 +802,140 @@ ADD ROOMS PAGE CSS HERE
 	font-size: 19.703px;
 	padding-top: 14px;
 	padding-bottom: 16px;
+}
+
+.photo-row small {
+	color: #1e1014;
+	font-family: Helvetica;
+}
+
+.photo-row ul {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+
+.photo-row ul li:first-child {
+	margin-right: 21px;
+}
+
+.photo-row ul li:nth-child(3) button {
+	color: #47b86c;
+	font-family: Helvetica;
+	width: 199px;
+	height: 48px;
+	border: 1px solid #47b86c;
+	background: transparent;
+	border-radius: 8px;
+	margin-left: 36px;
+}
+
+.photo-row ul li:nth-child(4) button {
+	color: #473d3e;
+	font-family: Helvetica;
+	width: 100px;
+	height: 48px;
+	background: #f8f8f8;
+	border: none;
+	border-radius: 8px;
+	margin-left: 24px;
+}
+
+.property-details form .action-title-btn p {
+	color: #1e1014;
+	font-family: Helvetica;
+}
+
+.property-details form .action-title-btn button {
+	width: 74px;
+	height: 33px;
+	border: 1px solid #d7d7d7;
+	border-radius: 15px;
+	background: transparent;
+}
+
+.new-proterty-add {
+	width: calc(100% - 331px);
+	padding: 0 58px;
+}
+
+.input-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-field {
+	width: 48%;
+}
+
+.input-field label {
+	color: #7a7a7a;
+	font-family: Helvetica;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 21px;
+}
+
+.input-field input {
+	color: #0f0609;
+	font-family: Helvetica;
+	width: 100%;
+	padding: 12px 17px;
+	background: #fff;
+	border: 1px solid #7a7a7a;
+	border-radius: 8px;
+	outline: none;
+}
+
+.input-field input::placeholder {
+	color: #0f0609;
+}
+
+.input-field select {
+	color: #0f0609;
+	font-family: Helvetica;
+	width: 100%;
+	padding: 12px 17px;
+	background-color: #fff;
+	border: 1px solid #7a7a7a;
+	border-radius: 8px;
+	outline: none;
+}
+
+.form-select:focus {
+	border-color: #7a7a7a;
+	box-shadow: none;
+}
+
+.property-details form {
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.cancel-btn {
+	color: #ff342d;
+	font-family: Helvetica;
+	width: 166px;
+	height: 47px;
+	flex-shrink: 0;
+	border: 1px solid #ff342d;
+	border-radius: 8px;
+	background: transparent;
+	margin-top: 40px;
+}
+
+.submit-btn {
+	color: #fff;
+	font-family: Helvetica;
+	width: 166px;
+	height: 47px;
+	flex-shrink: 0;
+	border: 1px solid #0eaf52;
+	border-radius: 8px;
+	background: #0eaf52;
+	margin-left: 11px;
+	margin-top: 40px;
 }

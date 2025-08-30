@@ -1,7 +1,28 @@
 /*=============================
 Extra Large Screen - Others
 ===============================*/
+@media screen and (min-width: 1400px) and (max-width: 1699px) {
+	.property-details form {
+		padding-top: 16px;
+		row-gap: 10px;
+	}
+	.submit-btn,
+	.cancel-btn {
+		margin-top: 20px;
+	}
+}
+/*=============================
+Extra Large Screen - Others
+===============================*/
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
+	.property-details form {
+		padding-top: 16px;
+		row-gap: 10px;
+	}
+	.submit-btn,
+	.cancel-btn {
+		margin-top: 20px;
+	}
 }
 
 /*========================
@@ -46,6 +67,14 @@ Large Screen - Leptop
 	.admin-menu-wrpper {
 		border: none;
 		padding-top: 40px;
+	}
+
+	.new-proterty-add {
+		width: 100%;
+		padding: 0 58px;
+	}
+	#add-rooms {
+		align-items: start !important;
 	}
 }
 
@@ -138,6 +167,22 @@ Medium Screen - Tablate
 	.admin-menu-wrpper {
 		border: none;
 		padding-top: 40px;
+	}
+
+	.new-proterty-add {
+		width: 100%;
+		padding: 0 58px;
+	}
+	#add-rooms {
+		align-items: start !important;
+	}
+	.property-details form {
+		padding-top: 16px;
+		row-gap: 10px;
+	}
+	.submit-btn,
+	.cancel-btn {
+		margin-top: 20px;
 	}
 }
 
@@ -298,5 +343,35 @@ Xtra Small Screen - Small Mobile
 		background-color: #000;
 		display: block;
 		margin: 8px 0;
+	}
+
+	.new-proterty-add {
+		width: 100%;
+		padding: 0 15px;
+	}
+	#add-rooms {
+		align-items: start !important;
+	}
+	.property-details form {
+		padding-top: 16px;
+		row-gap: 10px;
+	}
+	.submit-btn,
+	.cancel-btn {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.photo-row ul li:nth-child(3) button {
+		margin-left: 0;
+	}
+	.input-row {
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	.input-field {
+		width: 100%;
+	}
+	.input-field label {
+		margin-bottom: 11px;
 	}
 }
