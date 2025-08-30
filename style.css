@@ -939,3 +939,16 @@ ADD ROOMS PAGE CSS HERE
 	margin-left: 11px;
 	margin-top: 40px;
 }
+
+#confirm-box {
+	margin-top: 10px;
+}
+
+#custom-checkbox {
+	margin-bottom: 0;
+	display: flex;
+}
+
+.cancel-btn.delete-accoutn {
+	margin-top: 20px;
+}
