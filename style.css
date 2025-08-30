@@ -463,7 +463,8 @@ Login Form AREA CSS HERE
 	margin-top: 25px;
 }
 
-.signup-btn button {
+.signup-btn button,
+.otp-submit-btn button {
 	color: #fff;
 	text-align: center;
 	font-family: var(--Inter);
@@ -477,7 +478,12 @@ Login Form AREA CSS HERE
 	margin-top: 63px;
 }
 
-.signup-btn button:hover {
+.otp-submit-btn button {
+	margin-top: 20px;
+}
+
+.signup-btn button:hover,
+.otp-submit-btn button:hover {
 	background: transparent;
 	color: #0eaf52;
 }
@@ -492,4 +498,12 @@ Login Form AREA CSS HERE
 
 .login-form-wrpper form p a {
 	color: #3886de;
+}
+
+.login-form-wrpper small {
+	color: #010101;
+	font-family: var(--Inter);
+	font-size: 16.4px;
+	margin-top: 5px;
+	display: block;
 }
