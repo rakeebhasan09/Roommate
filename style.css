@@ -507,3 +507,36 @@ Login Form AREA CSS HERE
 	margin-top: 5px;
 	display: block;
 }
+
+/*======================
+TERMS CONDITION PAGE CSS HERE
+========================*/
+.terms-condition-area {
+	padding: 85px 0;
+}
+
+.terms-condition-wrpper h2 {
+	color: #000;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+.terms-condition-wrpper p,
+.terms-condition-list {
+	color: #000;
+	font-size: 24px;
+}
+
+.terms-condition-list {
+	padding-top: 15px;
+}
+
+.terms-condition-list ul {
+	padding-top: 10px;
+	list-style: disc;
+	padding-left: 40px;
+}
+
+.terms-condition-list ul li {
+	font-size: 20px;
+}

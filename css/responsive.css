@@ -116,4 +116,26 @@ Xtra Small Screen - Small Mobile
 	.login-form-wrpper form p {
 		margin-top: 30px;
 	}
+
+	.terms-condition-area {
+		padding: 40px 0;
+	}
+	.terms-condition-wrpper h2 {
+		font-size: 33px;
+	}
+	.terms-condition-wrpper p,
+	.terms-condition-list {
+		font-size: 17px;
+	}
+
+	.terms-condition-list h4 {
+		font-size: 19px;
+	}
+	.terms-condition-list ul {
+		padding-top: 5px;
+		padding-left: 15px;
+	}
+	.terms-condition-list ul li {
+		font-size: 16px;
+	}
 }
