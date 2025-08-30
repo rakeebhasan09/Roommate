@@ -21,6 +21,32 @@ Large Screen - Leptop
 	.apartmenat-img img {
 		max-width: 100%;
 	}
+
+	#add-rooms {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.all-rooms-card {
+		width: 100%;
+	}
+
+	.admin-menu-toggler {
+		padding-left: 55px;
+		display: flex;
+	}
+
+	.hamburger-line {
+		width: 40px;
+		height: 4px;
+		background-color: #000;
+		display: block;
+		margin: 8px 0;
+	}
+	.admin-menu-wrpper {
+		border: none;
+		padding-top: 40px;
+	}
 }
 
 /*=========================
@@ -82,6 +108,36 @@ Medium Screen - Tablate
 	}
 	.apartemant-desc-page {
 		padding-bottom: 125px;
+	}
+
+	#add-rooms {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	.all-rooms-card {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.all-rooms-card {
+		width: 100%;
+	}
+
+	.admin-menu-toggler {
+		padding-left: 55px;
+		display: flex;
+	}
+
+	.hamburger-line {
+		width: 40px;
+		height: 4px;
+		background-color: #000;
+		display: block;
+		margin: 8px 0;
+	}
+	.admin-menu-wrpper {
+		border: none;
+		padding-top: 40px;
 	}
 }
 
@@ -212,5 +268,35 @@ Xtra Small Screen - Small Mobile
 	}
 	.contact-buttons-row .row {
 		row-gap: 20px;
+	}
+
+	#add-rooms {
+		flex-direction: column;
+		row-gap: 30px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	.all-rooms-card {
+		width: 100%;
+		grid-template-columns: repeat(1, 1fr);
+		padding: 0 15px;
+		row-gap: 20px;
+	}
+	.admin-menu-wrpper {
+		border: none;
+		padding-top: 40px;
+	}
+	.admin-menu-toggler {
+		padding-left: 15px;
+		display: flex;
+	}
+
+	.hamburger-line {
+		width: 40px;
+		height: 4px;
+		background-color: #000;
+		display: block;
+		margin: 8px 0;
 	}
 }
