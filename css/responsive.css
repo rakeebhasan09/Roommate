@@ -17,6 +17,10 @@ Large Screen - Leptop
 	.footer-list ul li a {
 		font-size: 17px;
 	}
+
+	.apartmenat-img img {
+		max-width: 100%;
+	}
 }
 
 /*=========================
@@ -54,6 +58,30 @@ Medium Screen - Tablate
 	.footer-top-wrpper .row {
 		margin-top: 35px;
 		row-gap: 30px;
+	}
+
+	.apartemant-desc-row {
+		row-gap: 30px;
+	}
+
+	.owner-info-left {
+		padding: 0;
+	}
+	.border-bottom {
+		padding: 18px 0 18px;
+	}
+	.expence {
+		padding-bottom: 18px;
+	}
+	.contact-buttons-row {
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 30px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.apartemant-desc-page {
+		padding-bottom: 125px;
 	}
 }
 
@@ -151,5 +179,38 @@ Xtra Small Screen - Small Mobile
 	}
 	.arabic-banner-cntn p {
 		font-size: 19px;
+	}
+
+	.apartmenat-img img {
+		max-width: 100%;
+	}
+	.apartemant-desc-row {
+		row-gap: 30px;
+	}
+	.apartmenet-desc ul li {
+		width: 100%;
+	}
+
+	.owner-info-left {
+		padding: 0;
+	}
+	.border-bottom {
+		padding: 18px 0 18px;
+	}
+	.expence {
+		padding-bottom: 18px;
+	}
+	.contact-buttons-row {
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 30px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.apartemant-desc-page {
+		padding-bottom: 60px;
+	}
+	.contact-buttons-row .row {
+		row-gap: 20px;
 	}
 }
