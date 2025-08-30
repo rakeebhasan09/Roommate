@@ -540,3 +540,32 @@ TERMS CONDITION PAGE CSS HERE
 .terms-condition-list ul li {
 	font-size: 20px;
 }
+
+/*======================
+ARABIC BANNER PAGE CSS HERE
+========================*/
+.arabic-banner-area {
+	padding-top: 80px;
+	padding-bottom: 147px;
+}
+
+.banner-img img {
+	display: block;
+	margin: auto;
+	border-radius: 35px;
+	width: 100%;
+	max-width: 840px;
+}
+
+.arabic-banner-cntn {
+	padding-top: 25px;
+}
+
+.arabic-banner-cntn p {
+	color: #000;
+	font-size: 24px;
+	max-width: 975px;
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 15px;
+}

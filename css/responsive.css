@@ -138,4 +138,18 @@ Xtra Small Screen - Small Mobile
 	.terms-condition-list ul li {
 		font-size: 16px;
 	}
+
+	.arabic-banner-area {
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+	.banner-img img {
+		border-radius: 12px;
+	}
+	.arabic-banner-cntn img {
+		width: 120px;
+	}
+	.arabic-banner-cntn p {
+		font-size: 19px;
+	}
 }
