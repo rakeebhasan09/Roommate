@@ -108,6 +108,10 @@ Large Screen - Leptop
 	.area-btn a {
 		margin-top: 55px;
 	}
+
+	.city-location-tracker {
+		height: 50px;
+	}
 }
 
 /*=========================
@@ -273,6 +277,10 @@ Medium Screen - Tablate
 	}
 	.area-btn a {
 		margin-top: 55px;
+	}
+
+	.city-location-tracker {
+		height: 50px;
 	}
 }
 
@@ -545,5 +553,12 @@ Xtra Small Screen - Small Mobile
 	}
 	.area-btn a {
 		margin-top: 35px;
+	}
+
+	.browse-by-city-area.common-design {
+		padding-top: 10px;
+	}
+	.city-location-tracker {
+		height: 50px;
 	}
 }

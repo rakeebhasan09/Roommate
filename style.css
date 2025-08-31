@@ -1335,3 +1335,30 @@ Browse Room CSS HERE
 	background: transparent;
 	color: #47b86c;
 }
+
+.single-city {
+	position: relative;
+}
+
+.single-city img {
+	width: 100%;
+}
+
+.city-location-tracker {
+	height: 68px;
+	background: linear-gradient(0deg, #47b86c 0%, #47b86c 100%);
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding-left: 22px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.city-location-tracker span {
+	color: #fafafa;
+	font-size: 19.333px;
+	font-weight: 500;
+}
