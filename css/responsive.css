@@ -104,6 +104,10 @@ Large Screen - Leptop
 	.find-roommate-row .single-find-method:nth-child(3) {
 		width: 250px;
 	}
+
+	.area-btn a {
+		margin-top: 55px;
+	}
 }
 
 /*=========================
@@ -262,6 +266,13 @@ Medium Screen - Tablate
 	}
 	.find-roommate-row button {
 		width: 200px;
+	}
+
+	.common-design .row {
+		row-gap: 30px;
+	}
+	.area-btn a {
+		margin-top: 55px;
 	}
 }
 
@@ -521,5 +532,18 @@ Xtra Small Screen - Small Mobile
 	}
 	.find-roommate-row button {
 		width: 200px;
+	}
+
+	.common-design {
+		padding-bottom: 40px;
+	}
+	.area-title h2 {
+		margin-bottom: 20px;
+	}
+	.common-design .row {
+		row-gap: 20px;
+	}
+	.area-btn a {
+		margin-top: 35px;
 	}
 }
