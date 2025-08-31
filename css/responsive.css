@@ -112,6 +112,10 @@ Large Screen - Leptop
 	.city-location-tracker {
 		height: 50px;
 	}
+	.get-touch-cnnt h3 {
+		font-size: 45px;
+		padding-right: 0px;
+	}
 }
 
 /*=========================
@@ -281,6 +285,13 @@ Medium Screen - Tablate
 
 	.city-location-tracker {
 		height: 50px;
+	}
+
+	.get-touch-area {
+		padding-top: 35px;
+	}
+	.get-touch-wrpper .row {
+		row-gap: 50px;
 	}
 }
 
@@ -560,5 +571,26 @@ Xtra Small Screen - Small Mobile
 	}
 	.city-location-tracker {
 		height: 50px;
+	}
+
+	.get-touch-area {
+		padding-top: 15px;
+	}
+	.get-touch-wrpper {
+		padding: 20px;
+	}
+	.get-touch-cnnt h3 {
+		font-size: 36px;
+		padding-right: 0;
+		text-align: center;
+	}
+	.get-touch-cnnt p {
+		text-align: center;
+	}
+	.get-touch-wrpper .row {
+		row-gap: 30px;
+	}
+	.contact-from form {
+		row-gap: 15px;
 	}
 }

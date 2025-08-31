@@ -1402,3 +1402,71 @@ Browse Room CSS HERE
 .swiper {
 	width: 100%;
 }
+
+/*=========================
+Get Touch Area CSS HERE
+==========================*/
+.get-touch-area {
+	padding-top: 83px;
+}
+
+.get-touch-wrpper {
+	padding: 30px 61px 35px 50px;
+	border-radius: 10px;
+	background: #47b86c;
+}
+
+.get-touch-cnnt h3 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 400;
+	padding-right: 50px;
+	margin-bottom: 15px;
+}
+
+.get-touch-cnnt p {
+	color: #0e1624;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.contact-from input,
+.contact-from textarea {
+	color: #0e1624;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 6px;
+	background: #fff;
+	padding: 12px 24px;
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.contact-from input::placeholder,
+.contact-from textarea::placeholder {
+	color: #0e1624;
+}
+
+.contact-from button {
+	color: #fff;
+	font-size: 16px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	width: 100%;
+	background: transparent;
+	height: 48px;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact-from form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
+
+.contact-from button:hover {
+	box-shadow: 0 0 10px #000;
+	background: #fff;
+	color: #47b86c;
+}
