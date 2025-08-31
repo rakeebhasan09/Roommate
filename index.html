@@ -23,6 +23,11 @@
 
 		<!-- Icon Css Here -->
 		<link rel="stylesheet" href="css/font-awesome.css" />
+		<!-- Link Swiper's CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 
 		<!-- Main StyleSheet -->
 		<link rel="stylesheet" href="style.css" />
@@ -377,6 +382,146 @@
 				</div>
 			</section>
 			<!-- Browse By City Area End -->
+
+			<!-- Reviews Area Start -->
+			<section class="reviews-area common-design">
+				<div class="container">
+					<div class="area-title">
+						<h2>Hear From Our Happy Clients</h2>
+					</div>
+					<!-- Swiper -->
+					<div class="swiper mySwiper reviewSlider">
+						<div class="swiper-wrapper">
+							<!-- Single Item -->
+							<div class="swiper-slide">
+								<div class="single-review">
+									<p>
+										"As first-time home buyers, we were
+										really nervous about making the right
+										decision. The team at Elite Realty
+										guided us through every step, answering
+										all our questions with patience and
+										expertise. We couldn't be happier with
+										our new home!"
+									</p>
+									<div class="review-provider-info">
+										<div class="client-img"></div>
+										<div class="client-name-designation">
+											<h3>John Thompson</h3>
+											<p>First-Time Home Buyers</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Single Item -->
+							<div class="swiper-slide">
+								<div class="single-review">
+									<p>
+										"I've worked with several real estate
+										agencies, and Elite Realty stands out
+										for their exceptional market knowledge
+										and commitment. They helped me secure
+										several lucrative properties over the
+										past year. Highly recommend!"
+									</p>
+									<div class="review-provider-info">
+										<div class="client-img"></div>
+										<div class="client-name-designation">
+											<h3>Rachel Kim</h3>
+											<p>Property Investor</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Single Item -->
+							<div class="swiper-slide">
+								<div class="single-review">
+									<p>
+										"Selling my house was so much easier
+										than I expected. Elite Realty’s
+										marketing strategy was top-notch,
+										drawing in a great number of potential
+										buyers. It sold quicker and for a better
+										price than I had hoped!"
+									</p>
+									<div class="review-provider-info">
+										<div class="client-img"></div>
+										<div class="client-name-designation">
+											<h3>Ethan Grant</h3>
+											<p>Seller</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Single Item -->
+							<div class="swiper-slide">
+								<div class="single-review">
+									<p>
+										"As first-time home buyers, we were
+										really nervous about making the right
+										decision. The team at Elite Realty
+										guided us through every step, answering
+										all our questions with patience and
+										expertise. We couldn't be happier with
+										our new home!"
+									</p>
+									<div class="review-provider-info">
+										<div class="client-img"></div>
+										<div class="client-name-designation">
+											<h3>John Thompson</h3>
+											<p>First-Time Home Buyers</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Single Item -->
+							<div class="swiper-slide">
+								<div class="single-review">
+									<p>
+										"I've worked with several real estate
+										agencies, and Elite Realty stands out
+										for their exceptional market knowledge
+										and commitment. They helped me secure
+										several lucrative properties over the
+										past year. Highly recommend!"
+									</p>
+									<div class="review-provider-info">
+										<div class="client-img"></div>
+										<div class="client-name-designation">
+											<h3>Rachel Kim</h3>
+											<p>Property Investor</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Single Item -->
+							<div class="swiper-slide">
+								<div class="single-review">
+									<p>
+										"Selling my house was so much easier
+										than I expected. Elite Realty’s
+										marketing strategy was top-notch,
+										drawing in a great number of potential
+										buyers. It sold quicker and for a better
+										price than I had hoped!"
+									</p>
+									<div class="review-provider-info">
+										<div class="client-img"></div>
+										<div class="client-name-designation">
+											<h3>Ethan Grant</h3>
+											<p>Seller</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="area-btn">
+						<a href="#">See More</a>
+					</div>
+				</div>
+			</section>
+			<!-- Reviews Area End -->
 		</main>
 		<!-- MAIN AREA END -->
 
@@ -483,6 +628,33 @@
 			const findDate = new Date();
 			const findFullYear = findDate.getFullYear();
 			document.getElementById("dynamic-year").innerText = findFullYear;
+		</script>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".reviewSlider", {
+				autoplay: {
+					delay: 3000,
+				},
+				speed: 1000,
+				loop: true,
+				slidesPerView: 1,
+				spaceBetween: 10,
+				breakpoints: {
+					768: {
+						slidesPerView: 2,
+						spaceBetween: 20,
+					},
+
+					1200: {
+						slidesPerView: 3,
+						spaceBetween: 33,
+					},
+				},
+			});
 		</script>
 
 		<!-- Main jQuery -->
