@@ -91,6 +91,19 @@ Large Screen - Leptop
 	.landingpage-all-items-row .row {
 		row-gap: 40px;
 	}
+
+	.hero-content h1 {
+		font-size: 33px;
+		padding-right: 15px;
+	}
+	.find-roommate-row {
+		padding: 30px 25px 30px 25px;
+	}
+
+	.find-roommate-row .single-find-method:nth-child(2),
+	.find-roommate-row .single-find-method:nth-child(3) {
+		width: 250px;
+	}
 }
 
 /*=========================
@@ -224,6 +237,31 @@ Medium Screen - Tablate
 	}
 	.landingpage-all-items-row {
 		padding-bottom: 80px;
+	}
+
+	.hero-content {
+		text-align: center;
+	}
+	.hero-image-card img {
+		max-width: 50%;
+		display: block;
+		margin: auto;
+	}
+	.hero-content h1,
+	.hero-content p {
+		padding-right: 0;
+	}
+	.hero-wrpper .row {
+		row-gap: 40px;
+	}
+	.find-roommate-row {
+		padding: 20px;
+		transform: translateY(-37px);
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+	.find-roommate-row button {
+		width: 200px;
 	}
 }
 
@@ -449,5 +487,39 @@ Xtra Small Screen - Small Mobile
 	}
 	.landingpage-all-items-row {
 		padding-bottom: 50px;
+	}
+
+	.hero-area {
+		padding-bottom: 40px;
+	}
+	.hero-content {
+		text-align: center;
+	}
+	.hero-image-card img {
+		max-width: 90%;
+		display: block;
+		margin: auto;
+	}
+	.hero-content h1 {
+		font-size: 35px;
+	}
+	.hero-content h1,
+	.hero-content p {
+		padding-right: 0;
+	}
+	.hero-content p {
+		font-size: 16px;
+	}
+	.hero-wrpper .row {
+		row-gap: 40px;
+	}
+	.find-roommate-row {
+		padding: 20px;
+		transform: translateY(0);
+		flex-wrap: wrap;
+		row-gap: 30px;
+	}
+	.find-roommate-row button {
+		width: 200px;
 	}
 }

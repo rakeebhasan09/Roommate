@@ -1177,3 +1177,124 @@ LANDING PAGE 2 STYLE HERE
 .landingpage-all-items-row .row {
 	row-gap: 57px;
 }
+
+.hero-area {
+	background: #0e1624;
+}
+
+.hero-image-card img {
+	max-width: 100%;
+}
+
+.hero-content {
+	padding-top: 50px;
+}
+
+.hero-content h3 {
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.hero-content h1 {
+	color: #fff;
+	font-size: 54px;
+	margin-top: 23px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	padding-right: 90px;
+}
+
+.hero-content p {
+	color: #fff;
+	font-size: 18px;
+	padding-right: 50px;
+}
+
+.find-roommate-row {
+	max-width: 1069px;
+	padding: 47px 41px 47px 31px;
+	left: 0;
+	bottom: 0;
+	flex-shrink: 0;
+	border-radius: 0 11px 11px 11px;
+	background: #fff;
+	transform: translateY(-80px);
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.find-roommate-row button {
+	position: absolute;
+	left: 0;
+	top: -61px;
+	color: #47b86c;
+	font-size: 16px;
+	width: 272px;
+	height: 61px;
+	border: none;
+	border-radius: 11px 11px 0 0;
+	border-bottom: 1px solid #e7e7e7;
+	background: #fff;
+	text-align: left;
+	padding-left: 31px;
+}
+
+.find-roommate-row .single-find-method:first-child,
+.find-roommate-row .single-find-method:nth-child(2) {
+	width: 295px;
+}
+
+.find-roommate-row .single-find-method:nth-child(4) {
+	width: 156px;
+	background: transparent;
+}
+
+.find-roommate-row .single-find-method:nth-child(5) {
+	width: 86px;
+	height: 71px;
+	border-radius: 7px;
+	background: #47b86c;
+}
+
+.find-roommate-row .single-find-method {
+	width: 295px;
+	height: 71px;
+	border-radius: 7px;
+	background: #0e1826;
+	padding: 0 19px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.find-roommate-row .single-find-method input {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
+.find-roommate-row .single-find-method input::placeholder {
+	color: #fff;
+}
+
+.find-roommate-row .single-find-method select {
+	background-color: transparent;
+	background-image: url(images/caret-down-green.png);
+	border: none;
+	outline: none;
+	color: #fff;
+}
+
+.find-roommate-row .single-find-method select option {
+	color: #000;
+}
+
+.find-roommate-row .single-find-method:nth-child(4) span {
+	color: #0e1624;
+	font-size: 18px;
+}
