@@ -1158,6 +1158,18 @@ LANDING PAGE 2 STYLE HERE
 	padding: 15px !important;
 }
 
+.search-icon {
+	width: 86px;
+	height: 71px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 7px;
+	background: #47b86c;
+	cursor: pointer;
+}
+
 .landingpage-all-items-row {
 	padding-bottom: 109px;
 }
