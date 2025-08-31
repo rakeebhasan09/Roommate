@@ -116,6 +116,10 @@ Large Screen - Leptop
 		font-size: 45px;
 		padding-right: 0px;
 	}
+
+	.download-cntn p {
+		font-size: 20px;
+	}
 }
 
 /*=========================
@@ -292,6 +296,21 @@ Medium Screen - Tablate
 	}
 	.get-touch-wrpper .row {
 		row-gap: 50px;
+	}
+
+	.download-app-area {
+		padding: 80px 0;
+	}
+	.download-app-wrpper {
+		padding-right: 35px;
+		padding-left: 35px;
+		padding-top: 45px;
+	}
+	.download-cntn {
+		row-gap: 40px;
+	}
+	.download-app-wrpper .row {
+		row-gap: 40px;
 	}
 }
 
@@ -592,5 +611,24 @@ Xtra Small Screen - Small Mobile
 	}
 	.contact-from form {
 		row-gap: 15px;
+	}
+
+	.download-app-area {
+		padding: 40px 0;
+	}
+	.download-app-wrpper {
+		padding-right: 35px;
+		padding-left: 35px;
+		padding-top: 45px;
+	}
+	.download-cntn {
+		row-gap: 30px;
+	}
+	.download-cntn p {
+		font-size: 18px;
+		text-align: justify;
+	}
+	.download-app-wrpper .row {
+		row-gap: 20px;
 	}
 }

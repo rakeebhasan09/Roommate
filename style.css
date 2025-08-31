@@ -1219,7 +1219,7 @@ LANDING PAGE 2 STYLE HERE
 	flex-shrink: 0;
 	border-radius: 0 11px 11px 11px;
 	background: #fff;
-	transform: translateY(-80px);
+	transform: translateY(-80px) !important;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -1465,8 +1465,74 @@ Get Touch Area CSS HERE
 	row-gap: 25px;
 }
 
-.contact-from button:hover {
+.contact-from button:hover,
+.download-cntn button:hover {
 	box-shadow: 0 0 10px #000;
 	background: #fff;
 	color: #47b86c;
+}
+
+/*=========================
+Download App Area CSS HERE
+==========================*/
+.download-app-area {
+	padding-top: 106px;
+	padding-bottom: 114px;
+}
+
+.download-app-wrpper {
+	padding-top: 12px;
+	padding-right: 61px;
+	padding-left: 91px;
+	border-radius: 10px;
+	background: #47b86c;
+}
+
+.mobile-hand-img img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.download-cntn {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.download-cntn p {
+	color: #fff;
+	font-size: 24px;
+}
+
+.download-cntn button {
+	width: 350px;
+	max-width: 100%;
+	height: 48px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+}
+
+.footer-list ul li,
+.footer-list ul li a {
+	transition: all 0.3s ease-in-out;
+}
+
+.footer-list ul li:hover {
+	transform: translateX(10px);
+}
+
+.footer-list ul li:hover a,
+.footer-list ul li:hover span {
+	color: #0eaf52;
 }
