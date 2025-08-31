@@ -1108,3 +1108,60 @@ ADD ROOMS PAGE CSS HERE
 	background: #3d63f9;
 	border: none;
 }
+
+/*=========================
+LANDING PAGE 2 STYLE HERE
+==========================*/
+.search-filter-area {
+	padding-top: 75px;
+	padding-bottom: 93px;
+}
+
+.search-filter-wrpper {
+	max-width: 1170px;
+	border-radius: 0 11px 11px 11px;
+	background: #fff;
+	margin: auto;
+	padding: 47px 84px 34px 31px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 36px;
+	row-gap: 19px;
+}
+
+.single-options {
+	border-radius: 7px;
+	background: #0e1826;
+	padding-right: 30px;
+	padding-left: 19px;
+	height: 71px;
+	display: flex;
+	align-items: center;
+	column-gap: 18px;
+	width: 31%;
+}
+
+.single-options select {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	background-image: url(images/caret-down-green.png);
+	padding: 0;
+}
+
+.single-options select option {
+	color: #000;
+	padding: 15px !important;
+}
+
+.landingpage-all-items-row {
+	padding-bottom: 109px;
+}
+
+.landingpage-all-items-row .row {
+	row-gap: 57px;
+}

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="keywords" content="" />
+		<meta name="decription" content="" />
+		<meta name="designer" content="" />
+
+		<!-- Title -->
+		<title>Welcome</title>
+
+		<!-- Fav Icon -->
+		<link rel="icon" href="images/favicon.ico" />
+
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+
+		<!-- Icon Css Here -->
+		<link rel="stylesheet" href="css/font-awesome.css" />
+
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+	<body>
+		<!-- HEADER HERO AREA START -->
+		<header class="header-area">
+			<div class="container">
+				<div class="header-wrpper">
+					<div class="row align-items-center">
+						<div class="col-6 col-md-3 col-lg-4">
+							<div class="header-logo">
+								<a href="index.html">
+									<img
+										src="images/roommate-logo.png"
+										alt="Roommate Header Logo"
+									/>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-lg-6 d-none d-md-block">
+							<nav class="desktop-menu-card">
+								<ul class="SMN_effect-14">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">rooms</a></li>
+									<li><a href="#">roommate</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-md-2 col-lg-2 d-none d-md-block">
+							<div class="login-btn text-end">
+								<a href="#"> Login </a>
+							</div>
+						</div>
+						<div class="col-6 d-flex justify-content-end d-md-none">
+							<div
+								class="hamburger"
+								id="hamburger-1"
+								data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasRight"
+								aria-controls="offcanvasRight"
+							>
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER HERO AREA END -->
+
+		<!-- MOBILE MENU SIDE BAR -->
+		<aside
+			class="offcanvas offcanvas-end"
+			tabindex="-1"
+			id="offcanvasRight"
+			aria-labelledby="offcanvasRightLabel"
+		>
+			<div class="offcanvas-header">
+				<a href="index.html" id="offcanvasRightLabel">
+					<img src="images/roommate-logo.png" alt="" />
+				</a>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<nav class="desktop-menu-card">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">rooms</a></li>
+						<li><a href="#">roommate</a></li>
+						<li>
+							<div class="login-btn">
+								<a href="#"> Login </a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</aside>
+		<!-- MOBILE MENU SIDE BAR -->
+
+		<!-- MAIN AREA START -->
+		<main>
+			<!-- Search Filter Area Start -->
+			<section class="search-filter-area">
+				<div class="container">
+					<div class="search-filter-wrpper">
+						<!-- Single Options -->
+						<div class="single-options">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="27"
+								height="28"
+								viewBox="0 0 27 28"
+								fill="none"
+							>
+								<path
+									d="M9.44109 26.2949V22.0013C9.44107 20.9133 10.3391 20.0294 11.4515 20.0225H15.5358C16.6531 20.0225 17.5589 20.9085 17.5589 22.0013V26.2825C17.5589 27.2261 18.3373 27.9931 19.3021 28H22.0886C23.39 28.0032 24.6393 27.4999 25.5607 26.6009C26.4821 25.702 27 24.4814 27 23.2085V11.0122C27 9.98393 26.534 9.00858 25.7276 8.34889L16.2611 0.943974C14.6063 -0.351228 12.2429 -0.309388 10.6371 1.04354L1.37418 8.34889C0.529684 8.98914 0.0249427 9.96737 0 11.0122V23.1961C0 25.8491 2.19891 28 4.9114 28H7.63431C8.09882 28.0032 8.54548 27.8251 8.87514 27.5049C9.20481 27.1848 9.39021 26.7493 9.3902 26.2949H9.44109Z"
+									fill="#47B86C"
+								/>
+							</svg>
+							<select
+								class="form-select"
+								aria-label="Default select example"
+							>
+								<option selected>Room</option>
+								<option value="1">One</option>
+								<option value="2">Two</option>
+								<option value="3">Three</option>
+							</select>
+						</div>
+						<!-- Single Options -->
+						<div class="single-options">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="35"
+								height="32"
+								viewBox="0 0 35 32"
+								fill="none"
+							>
+								<path
+									d="M33.2308 6.15385H27.3846V3.69231H33.2308C33.5572 3.69231 33.8703 3.82198 34.1011 4.0528C34.3319 4.28361 34.4616 4.59666 34.4616 4.92308C34.4616 5.2495 34.3319 5.56255 34.1011 5.79337C33.8703 6.02418 33.5572 6.15385 33.2308 6.15385ZM19.3846 6.15385H1.23077C0.904349 6.15385 0.591298 6.02418 0.360484 5.79337C0.12967 5.56255 0 5.2495 0 4.92308C0 4.59666 0.12967 4.28361 0.360484 4.0528C0.591298 3.82198 0.904349 3.69231 1.23077 3.69231H19.3846V6.15385ZM19.3846 28.3077H1.23077C0.904349 28.3077 0.591298 28.178 0.360484 27.9472C0.12967 27.7164 0 27.4034 0 27.0769C0 26.7505 0.12967 26.4375 0.360484 26.2067C0.591298 25.9758 0.904349 25.8462 1.23077 25.8462H19.3846V28.3077ZM33.2308 28.3077H27.3846V25.8462H33.2308C33.5572 25.8462 33.8703 25.9758 34.1011 26.2067C34.3319 26.4375 34.4616 26.7505 34.4616 27.0769C34.4616 27.4034 34.3319 27.7164 34.1011 27.9472C33.8703 28.178 33.5572 28.3077 33.2308 28.3077ZM33.2308 17.2308H14.8431V14.7692H33.2308C33.5572 14.7692 33.8703 14.8989 34.1011 15.1297C34.3319 15.3605 34.4616 15.6736 34.4616 16C34.4616 16.3264 34.3319 16.6395 34.1011 16.8703C33.8703 17.1011 33.5572 17.2308 33.2308 17.2308ZM6.84308 17.2308H1.23077C0.904349 17.2308 0.591298 17.1011 0.360484 16.8703C0.12967 16.6395 0 16.3264 0 16C0 15.6736 0.12967 15.3605 0.360484 15.1297C0.591298 14.8989 0.904349 14.7692 1.23077 14.7692H6.84308V17.2308Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M23.2 9.84616C22.2263 9.84616 21.2745 9.55743 20.4649 9.01647C19.6553 8.47552 19.0243 7.70664 18.6516 6.80706C18.279 5.90749 18.1815 4.91762 18.3715 3.96264C18.5615 3.00765 19.0303 2.13044 19.7188 1.44194C20.4073 0.753433 21.2845 0.284556 22.2395 0.0945978C23.1945 -0.0953603 24.1844 0.00213308 25.084 0.374749C25.9835 0.747365 26.7524 1.37837 27.2934 2.18796C27.8343 2.99756 28.1231 3.94939 28.1231 4.92308C28.1231 6.22876 27.6044 7.48097 26.6811 8.40422C25.7579 9.32748 24.5057 9.84616 23.2 9.84616ZM23.2 2.46154C22.7131 2.46154 22.2372 2.60591 21.8324 2.87639C21.4276 3.14686 21.1121 3.5313 20.9258 3.98109C20.7395 4.43088 20.6908 4.92581 20.7857 5.4033C20.8807 5.8808 21.1152 6.3194 21.4594 6.66365C21.8037 7.0079 22.2423 7.24234 22.7198 7.33732C23.1972 7.4323 23.6922 7.38356 24.142 7.19725C24.5918 7.01094 24.9762 6.69544 25.2467 6.29064C25.5172 5.88584 25.6615 5.40993 25.6615 4.92308C25.6615 4.27024 25.4022 3.64414 24.9405 3.18251C24.4789 2.72088 23.8528 2.46154 23.2 2.46154ZM11.1507 20.9231C10.1771 20.9231 9.22522 20.6344 8.41563 20.0934C7.60603 19.5524 6.97503 18.7836 6.60241 17.884C6.22979 16.9844 6.1323 15.9945 6.32226 15.0396C6.51222 14.0846 6.9811 13.2074 7.6696 12.5189C8.3581 11.8304 9.23531 11.3615 10.1903 11.1715C11.1453 10.9816 12.1351 11.0791 13.0347 11.4517C13.9343 11.8243 14.7032 12.4553 15.2441 13.2649C15.7851 14.0745 16.0738 15.0263 16.0738 16C16.0738 17.3057 15.5551 18.5579 14.6319 19.4812C13.7086 20.4044 12.4564 20.9231 11.1507 20.9231ZM11.1507 13.5385C10.6639 13.5385 10.188 13.6828 9.78318 13.9533C9.37839 14.2238 9.06288 14.6082 8.87658 15.058C8.69027 15.5078 8.64152 16.0027 8.7365 16.4802C8.83148 16.9577 9.06592 17.3963 9.41017 17.7406C9.75442 18.0848 10.193 18.3193 10.6705 18.4143C11.148 18.5092 11.6429 18.4605 12.0927 18.2742C12.5425 18.0879 12.927 17.7724 13.1974 17.3676C13.4679 16.9628 13.6123 16.4869 13.6123 16C13.6123 15.3472 13.3529 14.7211 12.8913 14.2594C12.4297 13.7978 11.8036 13.5385 11.1507 13.5385ZM23.6923 32C22.7186 32 21.7668 31.7113 20.9572 31.1703C20.1476 30.6294 19.5166 29.8605 19.144 28.9609C18.7713 28.0613 18.6738 27.0715 18.8638 26.1165C19.0538 25.1615 19.5226 24.2843 20.2111 23.5958C20.8996 22.9073 21.7769 22.4384 22.7318 22.2485C23.6868 22.0585 24.6767 22.156 25.5763 22.5286C26.4758 22.9012 27.2447 23.5322 27.7857 24.3418C28.3266 25.1514 28.6154 26.1032 28.6154 27.0769C28.6154 28.3826 28.0967 29.6348 27.1734 30.5581C26.2502 31.4813 24.998 32 23.6923 32ZM23.6923 24.6154C23.2054 24.6154 22.7295 24.7598 22.3247 25.0302C21.9199 25.3007 21.6044 25.6852 21.4181 26.1349C21.2318 26.5847 21.1831 27.0797 21.278 27.5572C21.373 28.0347 21.6075 28.4733 21.9517 28.8175C22.296 29.1618 22.7346 29.3962 23.2121 29.4912C23.6896 29.5862 24.1845 29.5374 24.6343 29.3511C25.0841 29.1648 25.4685 28.8493 25.739 28.4445C26.0095 28.0397 26.1538 27.5638 26.1538 27.0769C26.1538 26.4241 25.8945 25.798 25.4329 25.3364C24.9712 24.8747 24.3451 24.6154 23.6923 24.6154Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M23.2 8.61538C25.2392 8.61538 26.8923 6.96228 26.8923 4.92307C26.8923 2.88386 25.2392 1.23076 23.2 1.23076C21.1608 1.23076 19.5077 2.88386 19.5077 4.92307C19.5077 6.96228 21.1608 8.61538 23.2 8.61538Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M11.1507 19.6923C13.1899 19.6923 14.843 18.0392 14.843 16C14.843 13.9608 13.1899 12.3077 11.1507 12.3077C9.1115 12.3077 7.4584 13.9608 7.4584 16C7.4584 18.0392 9.1115 19.6923 11.1507 19.6923Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M23.6923 30.7692C25.7315 30.7692 27.3846 29.1161 27.3846 27.0769C27.3846 25.0377 25.7315 23.3846 23.6923 23.3846C21.6531 23.3846 20 25.0377 20 27.0769C20 29.1161 21.6531 30.7692 23.6923 30.7692Z"
+									fill="#47B86C"
+								/>
+							</svg>
+							<select
+								class="form-select"
+								aria-label="Default select example"
+							>
+								<option selected>From</option>
+								<option value="1">Option One</option>
+								<option value="2">Option Two</option>
+								<option value="3">Option Three</option>
+							</select>
+						</div>
+						<!-- Single Options -->
+						<div class="single-options">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="35"
+								height="32"
+								viewBox="0 0 35 32"
+								fill="none"
+							>
+								<path
+									d="M33.2308 6.15385H27.3846V3.69231H33.2308C33.5572 3.69231 33.8703 3.82198 34.1011 4.0528C34.3319 4.28361 34.4616 4.59666 34.4616 4.92308C34.4616 5.2495 34.3319 5.56255 34.1011 5.79337C33.8703 6.02418 33.5572 6.15385 33.2308 6.15385ZM19.3846 6.15385H1.23077C0.904349 6.15385 0.591298 6.02418 0.360484 5.79337C0.12967 5.56255 0 5.2495 0 4.92308C0 4.59666 0.12967 4.28361 0.360484 4.0528C0.591298 3.82198 0.904349 3.69231 1.23077 3.69231H19.3846V6.15385ZM19.3846 28.3077H1.23077C0.904349 28.3077 0.591298 28.178 0.360484 27.9472C0.12967 27.7164 0 27.4034 0 27.0769C0 26.7505 0.12967 26.4375 0.360484 26.2067C0.591298 25.9758 0.904349 25.8462 1.23077 25.8462H19.3846V28.3077ZM33.2308 28.3077H27.3846V25.8462H33.2308C33.5572 25.8462 33.8703 25.9758 34.1011 26.2067C34.3319 26.4375 34.4616 26.7505 34.4616 27.0769C34.4616 27.4034 34.3319 27.7164 34.1011 27.9472C33.8703 28.178 33.5572 28.3077 33.2308 28.3077ZM33.2308 17.2308H14.8431V14.7692H33.2308C33.5572 14.7692 33.8703 14.8989 34.1011 15.1297C34.3319 15.3605 34.4616 15.6736 34.4616 16C34.4616 16.3264 34.3319 16.6395 34.1011 16.8703C33.8703 17.1011 33.5572 17.2308 33.2308 17.2308ZM6.84308 17.2308H1.23077C0.904349 17.2308 0.591298 17.1011 0.360484 16.8703C0.12967 16.6395 0 16.3264 0 16C0 15.6736 0.12967 15.3605 0.360484 15.1297C0.591298 14.8989 0.904349 14.7692 1.23077 14.7692H6.84308V17.2308Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M23.2 9.84616C22.2263 9.84616 21.2745 9.55743 20.4649 9.01647C19.6553 8.47552 19.0243 7.70664 18.6516 6.80706C18.279 5.90749 18.1815 4.91762 18.3715 3.96264C18.5615 3.00765 19.0303 2.13044 19.7188 1.44194C20.4073 0.753433 21.2845 0.284556 22.2395 0.0945978C23.1945 -0.0953603 24.1844 0.00213308 25.084 0.374749C25.9835 0.747365 26.7524 1.37837 27.2934 2.18796C27.8343 2.99756 28.1231 3.94939 28.1231 4.92308C28.1231 6.22876 27.6044 7.48097 26.6811 8.40422C25.7579 9.32748 24.5057 9.84616 23.2 9.84616ZM23.2 2.46154C22.7131 2.46154 22.2372 2.60591 21.8324 2.87639C21.4276 3.14686 21.1121 3.5313 20.9258 3.98109C20.7395 4.43088 20.6908 4.92581 20.7857 5.4033C20.8807 5.8808 21.1152 6.3194 21.4594 6.66365C21.8037 7.0079 22.2423 7.24234 22.7198 7.33732C23.1972 7.4323 23.6922 7.38356 24.142 7.19725C24.5918 7.01094 24.9762 6.69544 25.2467 6.29064C25.5172 5.88584 25.6615 5.40993 25.6615 4.92308C25.6615 4.27024 25.4022 3.64414 24.9405 3.18251C24.4789 2.72088 23.8528 2.46154 23.2 2.46154ZM11.1507 20.9231C10.1771 20.9231 9.22522 20.6344 8.41563 20.0934C7.60603 19.5524 6.97503 18.7836 6.60241 17.884C6.22979 16.9844 6.1323 15.9945 6.32226 15.0396C6.51222 14.0846 6.9811 13.2074 7.6696 12.5189C8.3581 11.8304 9.23531 11.3615 10.1903 11.1715C11.1453 10.9816 12.1351 11.0791 13.0347 11.4517C13.9343 11.8243 14.7032 12.4553 15.2441 13.2649C15.7851 14.0745 16.0738 15.0263 16.0738 16C16.0738 17.3057 15.5551 18.5579 14.6319 19.4812C13.7086 20.4044 12.4564 20.9231 11.1507 20.9231ZM11.1507 13.5385C10.6639 13.5385 10.188 13.6828 9.78318 13.9533C9.37839 14.2238 9.06288 14.6082 8.87658 15.058C8.69027 15.5078 8.64152 16.0027 8.7365 16.4802C8.83148 16.9577 9.06592 17.3963 9.41017 17.7406C9.75442 18.0848 10.193 18.3193 10.6705 18.4143C11.148 18.5092 11.6429 18.4605 12.0927 18.2742C12.5425 18.0879 12.927 17.7724 13.1974 17.3676C13.4679 16.9628 13.6123 16.4869 13.6123 16C13.6123 15.3472 13.3529 14.7211 12.8913 14.2594C12.4297 13.7978 11.8036 13.5385 11.1507 13.5385ZM23.6923 32C22.7186 32 21.7668 31.7113 20.9572 31.1703C20.1476 30.6294 19.5166 29.8605 19.144 28.9609C18.7713 28.0613 18.6738 27.0715 18.8638 26.1165C19.0538 25.1615 19.5226 24.2843 20.2111 23.5958C20.8996 22.9073 21.7769 22.4384 22.7318 22.2485C23.6868 22.0585 24.6767 22.156 25.5763 22.5286C26.4758 22.9012 27.2447 23.5322 27.7857 24.3418C28.3266 25.1514 28.6154 26.1032 28.6154 27.0769C28.6154 28.3826 28.0967 29.6348 27.1734 30.5581C26.2502 31.4813 24.998 32 23.6923 32ZM23.6923 24.6154C23.2054 24.6154 22.7295 24.7598 22.3247 25.0302C21.9199 25.3007 21.6044 25.6852 21.4181 26.1349C21.2318 26.5847 21.1831 27.0797 21.278 27.5572C21.373 28.0347 21.6075 28.4733 21.9517 28.8175C22.296 29.1618 22.7346 29.3962 23.2121 29.4912C23.6896 29.5862 24.1845 29.5374 24.6343 29.3511C25.0841 29.1648 25.4685 28.8493 25.739 28.4445C26.0095 28.0397 26.1538 27.5638 26.1538 27.0769C26.1538 26.4241 25.8945 25.798 25.4329 25.3364C24.9712 24.8747 24.3451 24.6154 23.6923 24.6154Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M23.2 8.61538C25.2392 8.61538 26.8923 6.96228 26.8923 4.92307C26.8923 2.88386 25.2392 1.23076 23.2 1.23076C21.1608 1.23076 19.5077 2.88386 19.5077 4.92307C19.5077 6.96228 21.1608 8.61538 23.2 8.61538Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M11.1507 19.6923C13.1899 19.6923 14.843 18.0392 14.843 16C14.843 13.9608 13.1899 12.3077 11.1507 12.3077C9.1115 12.3077 7.4584 13.9608 7.4584 16C7.4584 18.0392 9.1115 19.6923 11.1507 19.6923Z"
+									fill="#47B86C"
+								/>
+								<path
+									d="M23.6923 30.7692C25.7315 30.7692 27.3846 29.1161 27.3846 27.0769C27.3846 25.0377 25.7315 23.3846 23.6923 23.3846C21.6531 23.3846 20 25.0377 20 27.0769C20 29.1161 21.6531 30.7692 23.6923 30.7692Z"
+									fill="#47B86C"
+								/>
+							</svg>
+							<select
+								class="form-select"
+								aria-label="Default select example"
+							>
+								<option selected>Budget 500 - 1500 SAR</option>
+								<option value="1">Option One</option>
+								<option value="2">Option Two</option>
+								<option value="3">Option Three</option>
+							</select>
+						</div>
+						<!-- Single Options -->
+						<div class="single-options">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="29"
+								viewBox="0 0 23 29"
+								fill="none"
+							>
+								<path
+									d="M11.5 0C5.175 0 0 5.21348 0 11.5855C0 19.4057 10.0625 28.2397 10.4938 28.6742C11.0688 29.1086 11.7875 29.1086 12.3625 28.6742C12.9375 28.2397 23 19.4057 23 11.5855C23 5.21348 17.825 0 11.5 0ZM11.5 17.3783C8.3375 17.3783 5.75 14.7715 5.75 11.5855C5.75 8.3995 8.3375 5.79276 11.5 5.79276C14.6625 5.79276 17.25 8.3995 17.25 11.5855C17.25 14.7715 14.6625 17.3783 11.5 17.3783Z"
+									fill="#47B86C"
+								/>
+							</svg>
+							<select
+								class="form-select"
+								aria-label="Default select example"
+							>
+								<option selected>City</option>
+								<option value="1">City One</option>
+								<option value="2">City Two</option>
+								<option value="3">City Three</option>
+							</select>
+						</div>
+						<!-- Single Options -->
+						<div class="single-options">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="23"
+								height="29"
+								viewBox="0 0 23 29"
+								fill="none"
+							>
+								<path
+									d="M11.5 0C5.175 0 0 5.21348 0 11.5855C0 19.4057 10.0625 28.2397 10.4938 28.6742C11.0688 29.1086 11.7875 29.1086 12.3625 28.6742C12.9375 28.2397 23 19.4057 23 11.5855C23 5.21348 17.825 0 11.5 0ZM11.5 17.3783C8.3375 17.3783 5.75 14.7715 5.75 11.5855C5.75 8.3995 8.3375 5.79276 11.5 5.79276C14.6625 5.79276 17.25 8.3995 17.25 11.5855C17.25 14.7715 14.6625 17.3783 11.5 17.3783Z"
+									fill="#47B86C"
+								/>
+							</svg>
+							<select
+								class="form-select"
+								aria-label="Default select example"
+							>
+								<option selected>Dostrict</option>
+								<option value="1">Dostrict One</option>
+								<option value="2">Dostrict Two</option>
+								<option value="3">Dostrict Three</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Search Filter Area End -->
+
+			<!-- All Items Row Start -->
+			<section class="landingpage-all-items">
+				<div class="container">
+					<div class="landingpage-all-items-row">
+						<div class="row">
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/Apartemant.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Modern Apartments</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Riyadh - Malqa</span>
+										</p>
+										<h3>
+											1000
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/second-added-room.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Family Homes</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Dammam - Shatti</span>
+										</p>
+										<h3>
+											500
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/thired-room.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Villa Home</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Dammam</span>
+										</p>
+										<h3>
+											900
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/Apartemant.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Modern Apartments</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Riyadh - Malqa</span>
+										</p>
+										<h3>
+											1000
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/second-added-room.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Family Homes</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Dammam - Shatti</span>
+										</p>
+										<h3>
+											500
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/thired-room.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Villa Home</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Dammam</span>
+										</p>
+										<h3>
+											900
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/Apartemant.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Modern Apartments</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Riyadh - Malqa</span>
+										</p>
+										<h3>
+											1000
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/second-added-room.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Family Homes</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Dammam - Shatti</span>
+										</p>
+										<h3>
+											500
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+							<!-- Single Card -->
+							<div class="col-md-6 col-lg-4">
+								<div class="single-room-dtls">
+									<div class="room-thumbnail">
+										<img
+											src="images/thired-room.png"
+											alt=""
+										/>
+									</div>
+									<div class="room-desc">
+										<h4>Villa Home</h4>
+										<p>
+											<img
+												src="images/location-green.png"
+												alt=""
+											/>
+											<span>Dammam</span>
+										</p>
+										<h3>
+											900
+											<img
+												src="images/currency-white.png"
+												alt=""
+											/>
+											Per/Month
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- All Items Row End -->
+		</main>
+		<!-- MAIN AREA END -->
+
+		<!-- FOOTER AREA START -->
+		<section class="footer-area">
+			<div class="container">
+				<div class="footer-top-wrpper">
+					<h2>Elite Realty</h2>
+					<div class="row">
+						<div class="col-md-6 col-lg-3 col-xl-2">
+							<div class="footer-list">
+								<h3>Quick Link</h3>
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Properties</a></li>
+									<li><a href="#">Services</a></li>
+									<li><a href="#">Testimonials</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 col-xl-4">
+							<div class="footer-list">
+								<h3>Contact Info</h3>
+								<ul class="contact-info">
+									<li>
+										<span
+											><i class="fa-solid fa-phone"></i
+										></span>
+										<span>(123) 456-7890</span>
+									</li>
+									<li>
+										<span
+											><i class="fa-solid fa-envelope"></i
+										></span>
+										<span>contact@eliterealty.com</span>
+									</li>
+									<li>
+										<span
+											><i
+												class="fa-solid fa-location-dot"
+											></i
+										></span>
+										<span
+											>123 Realty Street, Major City,
+											45678</span
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-2 col-xl-3">
+							<div class="footer-list">
+								<h3>Legal</h3>
+								<ul>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3 col-xl-3">
+							<div class="footer-list">
+								<h3>Social Media</h3>
+								<ul class="contact-info">
+									<li>
+										<span
+											><i
+												class="fa-brands fa-facebook-f"
+											></i
+										></span>
+										<span>EliteRealty</span>
+									</li>
+									<li>
+										<span
+											><i class="fa-brands fa-twitter"></i
+										></span>
+										<span>EliteRealty</span>
+									</li>
+									<li>
+										<span
+											><i
+												class="fa-brands fa-instagram"
+											></i
+										></span>
+										<span>eliterealty</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom-wrpper">
+					<p>
+						© <span id="dynamic-year">2024</span> Elite Realty. All
+						rights reserved.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER AREA END -->
+
+		<script>
+			const findDate = new Date();
+			const findFullYear = findDate.getFullYear();
+			document.getElementById("dynamic-year").innerText = findFullYear;
+		</script>
+
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+
+		<!-- Bootstrap.bundle Script -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- Custom jQuery -->
+		<script src="js/scripts.js"></script>
+
+		<!-- Scroll-Top button -->
+		<a href="#" class="scrolltotop" style="display: none">
+			<i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+			<span class="pluse"></span>
+			<span class="pluse2"></span>
+		</a>
+	</body>
+</html>
